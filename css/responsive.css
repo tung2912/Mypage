@@ -80,9 +80,6 @@
 
 /*  (min-width:1280px)+++ */
 @media only screen and (max-width:1280px){
-	.mypage{
-		left: 185px;
-	}
 	.banner{
 		top: 490px;
 		padding: 15px 0px 15px 73px;
@@ -92,6 +89,13 @@
 	}
 	.carousel-indicators {
 		top: 284px;
+	}
+}
+
+@media only screen and (max-width:1025px) {
+	.banner{
+		top: 360px;
+		padding: 15px 0px 15px 73px;
 	}
 }
 /*
@@ -115,9 +119,6 @@
 		.mypage{
 			left: 180px;
 		}
-		.banner{
-			top: 458px;
-		}
 		.mobile{
 			margin-top: -400px;
 		}
@@ -131,9 +132,6 @@
 		.mypage{
 			left: 180px;
 		}
-		.banner{
-			top: 458px;
-		}
 		.mobile{
 			margin-top: -400px;
 		}
@@ -143,6 +141,17 @@
 	}
 
 	@media only screen and (max-width:1024px){
+		.button-middle {
+			margin-top: 14%;
+		}
+		.title {
+			font-size: 36px;
+		}
+
+		.content1_convinient p, .content2_convinient p {
+			font-size: 18px;
+		}
+
 		.mypage{
 			left: 165px;
 		}
@@ -202,8 +211,65 @@
 		}
 	}
 
+	@media only screen and (max-width:1023px) {
+		.banner {
+			display: none;
+		}
+	}
+
 	/* Small devices (min-width: 576px) (max-width: 767.98px) // (landscape phones, less than 768px) */
+	@media only screen and (max-width:964px) {
+		.notification {
+			padding: 10px;
+		}
+
+		.title {
+			font-size: 28px;
+			line-height: 30px;
+			margin-top: 20px;
+		}
+
+		.button-middle {
+			margin-top: 17%;
+		}
+
+		.content_service {
+			margin-top: 20px;
+		}
+
+		.content1_convinient {
+			margin-top: 20px ;
+		}
+
+		.content1_convinient blockquote, .content2_convinient blockquote {
+			font-size: 15px;
+		}
+
+	}
+
+	@media only screen and (max-width:767px) {
+		.button-middle {
+			margin-top: 0;
+		}
+	}
 	@media only screen and (max-width:768px){
+		.sub_content_new {
+			display: none;
+		}
+
+		.img_new {
+			display: none;
+		}  
+
+		.number {
+			font-size: 24px;
+		}
+
+		.banner_content {
+			font-size: 16px;
+			line-height: 25px;
+		}
+
 		.logo_menu{
 			left: 40px;
 
@@ -213,13 +279,19 @@
 		}
 
 		.banner{
-			top: 332px;
+			top: 225px;
+			padding-left: 10px;
+			padding-bottom: 5px;
 		}
 		.mobile{
 			margin-top: -331px;
 		}
 		.carousel-indicators {
 			top: 234px;
+		}
+
+		#header .header__nav-list ul a {
+			font-size: 1.5rem;
 		}
 	}
 

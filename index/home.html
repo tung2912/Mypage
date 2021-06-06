@@ -19,14 +19,39 @@
 	<header >
 		<div class="top-bar container-fluid" style="padding: 0px;">
 			<!-- menu -->
-			<nav class="navbar navbar-expand-md navbar-light">
+			<section id="header">
+				<div class="header">
+				  <div class="header__nav-bar">
+					<div class="header__brand">
+						<a class="navbar-branch mr-3" href="home.html">
+							<img src="../images/logo.png">
+						</a>
+					  <a href="#"><h3>MyPage</h3>
+						</a>
+					</div>
+					<div class="header__nav-list">
+					  <div class="hamburger">
+						<div class="bar"></div>
+					  </div>
+					  <ul>
+						<li><a class="link" href="#" >Trang chủ</a></li>
+						<li><a class="link" href="#" >Tiện ích</a></li>
+						<li><a class="link" href="#" >Dịch vụ</a></li>
+						<li><a class="link" href="#" >Kết nối</a></li>
+						<li><a class="link login-button" href="#" >Đăng nhập</a></li>
+					  </ul>
+					</div>
+				  </div>
+				</div>
+			  </section>
+			<!-- <nav class="navbar navbar-expand-md navbar-light">
 				<div class="container-fluid mt-3 mb-3" >
-					<div class="col-0 col-xs-0 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-					<a class="navbar-branch" href="home.html">
-						<img src="../images/logo.png">
-
-					</a>
-					<div class="mypage">MYPAGE</div>
+					<div class="navbar_left">
+						<a class="navbar-branch mr-3" href="home.html">
+							<img src="../images/logo.png">
+						</a>
+						<div class="mypage">MYPAGE</div>
+					</div>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" 
 					data-target="#navbarResponsive">
 					<span class="navbar-toggler-icon"></span>
@@ -52,7 +77,7 @@
 				</div>
 				<div class="col-0 col-xs-0 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
 			</div>
-		</nav>
+			</nav> -->
 		<!-- slide -->
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
@@ -236,7 +261,7 @@
 			</a>
 		</div>
 	</div>
-</header>
+	</header>
 
 <div class="page">
 	<!-- convinient -->
@@ -267,7 +292,7 @@
 							<blockquote>
 								Phản ánh tình hình trật tự, an ninh, xã hội trực tiếp đến cơ quan chức năng có thẩm quyền
 							</blockquote>
-							<div class="button"><button type="button" onclick="location.href='home.html'">Truy cập</button></div>	
+							<div class="button button-middle"><button type="button" onclick="location.href='home.html'">Truy cập</button></div>	
 						</div>
 						<div class ="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<img class="img_convinient" src="../images/khao_sat.png" alt="Khảo sát">
@@ -679,6 +704,8 @@
 		</div>
 	</div>
 </footer>
-
+<script src="../js/myJs.js">
+	
+</script>
 </body>
 </html>
